@@ -7,11 +7,24 @@
   font-size: 100%;
 }
 
-.top-header {
-	float: left;
+/* CSS reset end */
+
+body {
+  background: linear-gradient(to bottom, #003399 0%, #ff9933 140%) no-repeat center center fixed;
+  background-size: cover;
 }
 
-/* Pozicionálás */
+.ebusiness-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 20px;
+  box-shadow: hsla(0, 0%, 0%, .9) 15px 15px 80vh;
+}
+
+.name-headline {
+	letter-spacing: 2px;
+	line-height: 4vh;
+	margin-top: 2vh;
+}
 
 .ebusiness-card {
   width: 400px;
@@ -32,8 +45,8 @@ body {
   text-align: center;
 }
 
-.head, .content {
-  width: 95%;
+.head {
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -59,54 +72,31 @@ img:hover {
   filter: grayscale(20%);
 }
 
-/* Contact links */
-
-ul {
-  list-style-type: none;
-}
-
-li {
-  display: inline;
-}
-
-.head, .about {
-  margin-bottom: 10%;
-}
-
-.content {
-  padding: 5% 10%;
-}
-
-body {
-  background: linear-gradient(to bottom, #003399 0%, #ff9933 140%) no-repeat center center fixed;
-  background-size: cover;
-}
-
-.ebusiness-card {
-  background-color: hsla(0, 0%, 100%, .8);
-  border-radius: 10px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
-  letter-spacing: 1px;
-  line-height: 130%;
-}
-
-.content {
+.about {
   border-top: 1px solid hsla(0, 0%, 30%, .8);
-}
-
-.section-links {
-  border-top: 1px solid hsla(0, 0%, 30%, .8);
+	border-bottom: 1px solid hsla(0, 0%, 30%, .8);
+	width: 75%;
+	margin: 2vh auto 2vh auto;
+	text-align: left;
+	line-height: 4vh;
 }
 
 h1 {
   text-transform: uppercase;
-  font-size: 22px;
+  font-family: fantasy;
+	font-size: 5vh;
+	margin: 2vh auto 2vh auto;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 3vh;
 }
 
-p {
-  text-align: justify;
+h3 {
+	font-size: 3vh;
+}
+
+a {
+	font-size: 4vh;
+	letter-spacing: 1vw;
 }
